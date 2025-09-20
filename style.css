@@ -28,6 +28,28 @@ body {
     flex: 1;
     gap: 52px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.logo {
+  line-height: 0.85;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+}
+
+.logo-build {
+  font-size: 18px;
+  color: #0F1724; /* dark neutral */
+}
+
+.logo-easy {
+  font-size: 18px;
+  color: #2F80ED; /* brand accent */
+  margin-top: -4px;
+}
+
+
 ul {
     list-style-type: none;
     padding: 1rem;
@@ -60,15 +82,16 @@ a {
     align-items: center;
     color: white;
 }
+
+.header-content img {
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+}
+
 .Text{
     flex: 1;
 }
-
-.image{
-    width: 1O0px;
-    height: auto;
-}
-
 
 .main-text{
     font-size: 48px;
@@ -98,15 +121,18 @@ button {
     background-color: #f3f4f6;
     display: flex;
     padding: 80px;
+    flex-wrap: wrap;
 }
 .image-1, .Image-2, .image-3, .image-4 {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     text-align: center;
     flex: 1;
+    flex-wrap: wrap;
+
+
 }
 .content img{
     border-radius: 16px;
@@ -114,8 +140,12 @@ button {
     border: 4px solid  #3882F6;
     flex: 1 1 auto;
     height: auto;
-    width: 100px;
+    width: 163px;
+    height: 300.57px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .quote {
     display: flex;
@@ -162,9 +192,4 @@ button {
     align-items: center;
     background-color: #1f2937;
     color: white;
-}
-.header-content img{
-    padding: 25px;
-    width: 500px;
-    height: 120px;
 }
